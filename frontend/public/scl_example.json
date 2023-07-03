@@ -1,0 +1,1027 @@
+{
+   "name": "SCL",
+   "args": {
+      "xmlns": "http://www.iec.ch/61850/2003/SCL"
+   },
+   "value": "",
+   "children": [
+      {
+         "name": "IED",
+         "args": {
+            "name": "simpleIO"
+         },
+         "value": "",
+         "children": [
+            {
+               "name": "Services",
+               "args": {},
+               "value": "",
+               "children": [
+                  {
+                     "name": "DynAssociation",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GetDirectory",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GetDataObjectDefinition",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GetDataSetValue",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DataSetDirectory",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "ReadWrite",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GetCBValues",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "ConfLNs",
+                     "args": {
+                        "fixLnInst": "true",
+                        "fixPrefix": "true"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GOOSE",
+                     "args": {
+                        "max": "5"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GSSE",
+                     "args": {
+                        "max": "5"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "FileHandling",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "GSEDir",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "TimerActivatedControl",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "AccessPoint",
+               "args": {
+                  "name": "accessPoint1"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "Server",
+                     "args": {},
+                     "value": "",
+                     "children": [
+                        {
+                           "name": "Authentication",
+                           "args": {},
+                           "value": "",
+                           "children": [
+                           ]
+                        },
+                        {
+                           "name": "LDevice",
+                           "args": {
+                              "inst": "GenericIO"
+                           },
+                           "value": "",
+                           "children": [
+                              {
+                                 "name": "LN0",
+                                 "args": {
+                                    "inst": "",
+                                    "lnClass": "LLN0",
+                                    "lnType": "LLN01"
+                                 },
+                                 "value": "",
+                                 "children": [
+                                    {
+                                       "name": "DOI",
+                                       "args": {
+                                          "name": "Mod"
+                                       },
+                                       "value": "",
+                                       "children": [
+                                          {
+                                             "name": "DAI",
+                                             "args": {
+                                                "name": "ctlModel"
+                                             },
+                                             "value": "",
+                                             "children": [
+                                                {
+                                                   "name": "Val",
+                                                   "args": {},
+                                                   "value": "status-only",
+                                                   "children": []
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "LN",
+                                 "args": {
+                                    "inst": "1",
+                                    "lnClass": "LPHD",
+                                    "lnType": "LPHD1",
+                                    "prefix": ""
+                                 },
+                                 "value": "",
+                                 "children": [
+                                 ]
+                              },
+                              {
+                                 "name": "LN",
+                                 "args": {
+                                    "inst": "1",
+                                    "lnClass": "GGIO",
+                                    "lnType": "GGIO1",
+                                    "prefix": ""
+                                 },
+                                 "value": "",
+                                 "children": [
+                                    {
+                                       "name": "DOI",
+                                       "args": {
+                                          "name": "Mod"
+                                       },
+                                       "value": "",
+                                       "children": [
+                                          {
+                                             "name": "DAI",
+                                             "args": {
+                                                "name": "ctlModel"
+                                             },
+                                             "value": "",
+                                             "children": [
+                                                {
+                                                   "name": "Val",
+                                                   "args": {},
+                                                   "value": "status-only",
+                                                   "children": []
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name": "DOI",
+                                       "args": {
+                                          "name": "SPCSO1"
+                                       },
+                                       "value": "",
+                                       "children": [
+                                          {
+                                             "name": "DAI",
+                                             "args": {
+                                                "name": "ctlModel"
+                                             },
+                                             "value": "",
+                                             "children": [
+                                                {
+                                                   "name": "Val",
+                                                   "args": {},
+                                                   "value": "status-only",
+                                                   "children": []
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name": "DOI",
+                                       "args": {
+                                          "name": "SPCSO2"
+                                       },
+                                       "value": "",
+                                       "children": [
+                                          {
+                                             "name": "DAI",
+                                             "args": {
+                                                "name": "ctlModel"
+                                             },
+                                             "value": "",
+                                             "children": [
+                                                {
+                                                   "name": "Val",
+                                                   "args": {},
+                                                   "value": "status-only",
+                                                   "children": []
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name": "DOI",
+                                       "args": {
+                                          "name": "SPCSO3"
+                                       },
+                                       "value": "",
+                                       "children": [
+                                          {
+                                             "name": "DAI",
+                                             "args": {
+                                                "name": "ctlModel"
+                                             },
+                                             "value": "",
+                                             "children": [
+                                                {
+                                                   "name": "Val",
+                                                   "args": {},
+                                                   "value": "status-only",
+                                                   "children": []
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name": "DOI",
+                                       "args": {
+                                          "name": "SPCSO4"
+                                       },
+                                       "value": "",
+                                       "children": [
+                                          {
+                                             "name": "DAI",
+                                             "args": {
+                                                "name": "ctlModel"
+                                             },
+                                             "value": "",
+                                             "children": [
+                                                {
+                                                   "name": "Val",
+                                                   "args": {},
+                                                   "value": "status-only",
+                                                   "children": []
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "DataTypeTemplates",
+         "args": {},
+         "value": "",
+         "children": [
+            {
+               "name": "LNodeType",
+               "args": {
+                  "desc": "Logical node zero",
+                  "id": "LLN01",
+                  "lnClass": "LLN0"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Mod",
+                        "type": "INC_1_Mod"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Beh",
+                        "type": "INS_1_Beh"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Health",
+                        "type": "INS_1_Beh"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "NamPlt",
+                        "type": "LPL_1_NamPlt"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "LNodeType",
+               "args": {
+                  "desc": "Physical device information",
+                  "id": "LPHD1",
+                  "lnClass": "LPHD"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "PhyNam",
+                        "type": "DPL_1_PhyNam"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "PhyHealth",
+                        "type": "INS_1_Beh"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Proxy",
+                        "type": "SPS_1_Proxy"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "LNodeType",
+               "args": {
+                  "desc": "Generic process I/O",
+                  "id": "GGIO1",
+                  "lnClass": "GGIO"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Mod",
+                        "type": "INC_1_Mod"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Beh",
+                        "type": "INS_1_Beh"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Health",
+                        "type": "INS_1_Beh"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "NamPlt",
+                        "type": "LPL_2_NamPlt"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "AnIn1",
+                        "type": "MV_1_AnIn1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "AnIn2",
+                        "type": "MV_1_AnIn1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "AnIn3",
+                        "type": "MV_1_AnIn1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "AnIn4",
+                        "type": "MV_1_AnIn1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "SPCSO1",
+                        "type": "SPC_1_SPCSO1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "SPCSO2",
+                        "type": "SPC_1_SPCSO1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "SPCSO3",
+                        "type": "SPC_1_SPCSO1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "SPCSO4",
+                        "type": "SPC_1_SPCSO1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Ind1",
+                        "type": "SPS_1_Proxy"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Ind2",
+                        "type": "SPS_1_Proxy"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Ind3",
+                        "type": "SPS_1_Proxy"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DO",
+                     "args": {
+                        "name": "Ind4",
+                        "type": "SPS_1_Proxy"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "INC",
+                  "id": "INC_1_Mod"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Quality",
+                        "fc": "ST",
+                        "name": "q",
+                        "qchg": "true"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Timestamp",
+                        "fc": "ST",
+                        "name": "t"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Enum",
+                        "fc": "CF",
+                        "name": "ctlModel",
+                        "type": "CtlModels"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "INS",
+                  "id": "INS_1_Beh"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "INT32",
+                        "dchg": "true",
+                        "fc": "ST",
+                        "name": "stVal"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Quality",
+                        "fc": "ST",
+                        "name": "q",
+                        "qchg": "true"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Timestamp",
+                        "fc": "ST",
+                        "name": "t"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "LPL",
+                  "id": "LPL_1_NamPlt"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "vendor"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "swRev"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "d"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "configRev"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "EX",
+                        "name": "ldNs"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "DPL",
+                  "id": "DPL_1_PhyNam"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "vendor"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "SPS",
+                  "id": "SPS_1_Proxy"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "BOOLEAN",
+                        "dchg": "true",
+                        "fc": "ST",
+                        "name": "stVal"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Quality",
+                        "fc": "ST",
+                        "name": "q",
+                        "qchg": "true"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Timestamp",
+                        "fc": "ST",
+                        "name": "t"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "LPL",
+                  "id": "LPL_2_NamPlt"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "vendor"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "swRev"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "VisString255",
+                        "fc": "DC",
+                        "name": "d"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "MV",
+                  "id": "MV_1_AnIn1"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Struct",
+                        "dchg": "true",
+                        "fc": "MX",
+                        "name": "mag",
+                        "type": "AnalogueValue_1"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Quality",
+                        "fc": "MX",
+                        "name": "q",
+                        "qchg": "true"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Timestamp",
+                        "fc": "MX",
+                        "name": "t"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DOType",
+               "args": {
+                  "cdc": "SPC",
+                  "id": "SPC_1_SPCSO1"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Quality",
+                        "fc": "ST",
+                        "name": "q",
+                        "qchg": "true"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Timestamp",
+                        "fc": "ST",
+                        "name": "t"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  },
+                  {
+                     "name": "DA",
+                     "args": {
+                        "bType": "Enum",
+                        "fc": "CF",
+                        "name": "ctlModel",
+                        "type": "CtlModels"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "DAType",
+               "args": {
+                  "id": "AnalogueValue_1"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "BDA",
+                     "args": {
+                        "bType": "FLOAT32",
+                        "name": "f"
+                     },
+                     "value": "",
+                     "children": [
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "EnumType",
+               "args": {
+                  "id": "CtlModels"
+               },
+               "value": "",
+               "children": [
+                  {
+                     "name": "EnumVal",
+                     "args": {
+                        "ord": "0"
+                     },
+                     "value": "status-only",
+                     "children": []
+                  },
+                  {
+                     "name": "EnumVal",
+                     "args": {
+                        "ord": "1"
+                     },
+                     "value": "direct-with-normal-security",
+                     "children": []
+                  },
+                  {
+                     "name": "EnumVal",
+                     "args": {
+                        "ord": "2"
+                     },
+                     "value": "sbo-with-normal-security",
+                     "children": []
+                  },
+                  {
+                     "name": "EnumVal",
+                     "args": {
+                        "ord": "3"
+                     },
+                     "value": "direct-with-enhanced-security",
+                     "children": []
+                  },
+                  {
+                     "name": "EnumVal",
+                     "args": {
+                        "ord": "4"
+                     },
+                     "value": "sbo-with-enhanced-security",
+                     "children": []
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
